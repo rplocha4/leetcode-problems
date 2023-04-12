@@ -1,4 +1,4 @@
-def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+def groupAnagrams(strs):
     res = {}
     for str in strs:
         letters = [0] * 26

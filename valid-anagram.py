@@ -1,4 +1,4 @@
-def isAnagram(self, s: str, t: str) -> bool:
+def isAnagram(s, t):
     if len(s) != len(t):
         return False
     seen = {}
@@ -15,4 +15,4 @@ def isAnagram(self, s: str, t: str) -> bool:
     for char in seen:
         if seen[char] != 0:
             return False
-    return True    
+    return True

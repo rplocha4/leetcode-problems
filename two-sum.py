@@ -1,4 +1,4 @@
-def twoSum(self, nums: List[int], target: int) -> List[int]:
+def twoSum(nums, target):
     seen = {}
     for i, num in enumerate(nums):
         if seen.get(target - num) is not None:
