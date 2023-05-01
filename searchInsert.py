@@ -1,4 +1,4 @@
-def searchInsert(nums):
+def searchInsert(nums, target):
     l, r = 0, len(nums)
     while l < r:
         m = l + (r - l) // 2
